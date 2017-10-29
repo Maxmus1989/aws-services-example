@@ -1,0 +1,7 @@
+{
+  "queryStringParameters": {
+    "min": 30,
+    "max": 50,
+    "target": 40
+  }
+}

@@ -1,9 +1,6 @@
 # Trigger with API Gateway
 
 Simple `Random Number Generator` function added trigger via `API Gateway` for demonstrate.
-
-NOTE: `Using Lambda Proxy integration`
-
 - Input
   ```
   {
@@ -36,3 +33,7 @@ NOTE: `Using Lambda Proxy integration`
       "body": "{\"min\":0,\"max\":2,\"target\":1,\"randomNumber\":2,\"isLargerThanTarget\":true,\"isTarget\":false,\"isSmallerThanTarget\":false}"
     }
     ```
+
+API Gateway
+ - GET method
+ - `Using Lambda Proxy integration`
